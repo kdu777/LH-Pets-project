@@ -39,7 +39,7 @@ namespace Projeto_Web_Lh_Pets_versão_1
                                     {
                                         cpf_cnpj = tabela["cpf_cnpj"].ToString(),
                                         nome = tabela["nome"].ToString(),
-                                        endereco = tabela["endereco"].ToString()
+                                        endereco = tabela["endereco"].ToString(),
                                         rg_ie = tabela["rg_ie"].ToString(),
                                         tipo = tabela["tipo"].ToString(),
                                         valor = (float)Convert.ToDecimal(tabela["valor"]),
